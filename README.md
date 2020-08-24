@@ -17,6 +17,6 @@ A Junit Test is in the repository as well.
 Written by Po Tin Mak
 
 Examples of running the V.java
-![Resetting the system case](https://github.com/blackninja-ml/VendingMachine_NonGUI/blob/master/vm1.png)
-![](https://github.com/blackninja-ml/VendingMachine_NonGUI/blob/master/vm2.png)
-![Normal buying case](https://github.com/blackninja-ml/VendingMachine_NonGUI/blob/master/vm3.png)
+![Resetting the system case] # (https://github.com/blackninja-ml/VendingMachine_NonGUI/blob/master/vm1.png)
+![Normal buying case] # (https://github.com/blackninja-ml/VendingMachine_NonGUI/blob/master/vm2.png)
+![Refund case] # (https://github.com/blackninja-ml/VendingMachine_NonGUI/blob/master/vm3.png)
