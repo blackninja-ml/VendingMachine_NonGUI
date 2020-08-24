@@ -1,7 +1,7 @@
 # VendingMachine_NonGUI
 Non-GUI Java Vending Machine Project 
 
-This project is can be run on Eclipse.
+This project can be run on Eclipse.
 The IDE should be configured with JUnit 5 and JRE Library.
 
 ## Here is the program's design objective.
