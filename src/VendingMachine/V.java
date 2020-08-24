@@ -1,5 +1,7 @@
 
 
+
+
 package VendingMachine;
 
 import java.util.Scanner;
@@ -119,7 +121,11 @@ public class V {
 			 System.out.println("Thank you please come again next time.");
 		 }else {
 		    System.out.println("Please select your product.");
-		    char product1 = input.next().charAt(0);
+		    String productx = input.next();
+		    if (productx.equals("-4")) {
+		    	return;
+		    }
+		    char product1 =productx.charAt(0);
 		    //product = product1.toLowerCase(); //a
 		    int no = (int)product1-97;
 		    	System.out.println(no);
@@ -238,7 +244,6 @@ public class V {
 				}
 				 System.out.println("Type 1 when you want to insert coins");
 				    System.out.println("Type 0 when you finish inserting money.");
-				    //System.out.println("Type d when you want to cancel a request.");
 				    System.out.println("Type -2 when you want to reset the system.");
 				    System.out.println("Type 0 and then -4 when you want to refund.");
 				 options = input.nextInt();
